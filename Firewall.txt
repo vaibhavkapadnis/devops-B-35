@@ -1,0 +1,23 @@
+  Firewall ->A firewall is a network security service that monitors and 
+                    controls incoming and outgoing network traffic based on predetermined security rules
+
+ firewall-cmd   --reload
+ firewall-cmd   --list-all
+
+ * Add and Remove Services:
+  firewall-cmd  --zone=public  --add-service=http
+  firewall-cmd --zone=public --remove-service=http
+
+ * Add and Remove Port:
+  firewall-cmd --zone=public --add-port=80/tcp
+  firewall-cmd --zone=public --remove-port=80/tcp
+
+* Port Forwarding :
+  firewall-cmd --zone=public --add-forward-port=port=80:proto=tcp:toport=8080
+
+
+---------------------------------------------------------------
+  systemctl start firewalld      -> Start the firewall
+  systemctl stop firewalld      ->Stop the firewall
+  systemctl enable firewalld   -> Enable the firewall 
+  systemctl disable firewalld  -> Disable the firewall 
