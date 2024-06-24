@@ -75,7 +75,23 @@ git pull https://github.com/abhipraydhoble/Project-Student-App.git
 git fetch https://github.com/abhipraydhoble/Project-Student-App.git
 ````
 
+**git rebase:used to apply commites of one branchh to another**
+````
+git rebase main
+````
+**Cherry picking**
+````
+git cherry-pick dad47ed # Applies the given commit on the current branch
+````
+**Stashing**
+````
+git stash                    # Creates a new stash 
+git stash list               # Lists all the stashes
+git stash apply 1             # Apply stash
+git stash apply stash@{1}     # Applies specific stash
+git stash clear               # Deletes all the stashes
 
+````
 
 
 
