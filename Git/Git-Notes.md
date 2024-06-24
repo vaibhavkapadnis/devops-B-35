@@ -42,6 +42,10 @@ git restore --staged  <filename>
 git commit -m 'reason for commit'
 ````
 
+**git revert: uncommmit/delete file from local repo**
+````
+git revert <commit id>
+````
 
 **git push : To push changes from git local repository to git central repository**
 
@@ -70,5 +74,9 @@ git pull https://github.com/abhipraydhoble/Project-Student-App.git
 ````
 git fetch https://github.com/abhipraydhoble/Project-Student-App.git
 ````
+
+
+
+
 
 
