@@ -21,7 +21,7 @@ resource "aws_instance" "vm" {
 }
 
 ---
-# User_Data Example 1
+# User_Data Example 2
 resource "aws_instance" "vm" {
   ami           = "ami-01376101673c89611"
   instance_type = "t2.micro"
