@@ -1,16 +1,20 @@
 # $${\color{red} \textbf{Variables:}}$$
 
-## Introduction
-- In Terraform, variables help you customize your configurations so you can reuse them easily. 
-- They're like placeholders you can fill in with different values when you use your Terraform files.
 
-**String:** Textual data, like words or sentences.
-**Number:** Numeric data, including integers and floating-point numbers.
-**Boolean:** Represents true or false values.
-**List:** An ordered collection of items.
-**Map:** A collection of key-value pairs.
 
-```hcl
+- Terraform variables let you customize your configurations so you can easily reuse them.
+- They act like blanks you fill in with different values whenever you use your Terraform files.
+  
+
+**1.String:** Textual data, like words or sentences.
+**2.Number:** Numeric data, including integers and floating-point numbers.
+**3.Boolean:** Represents true or false values.
+**4.List:** An ordered collection of items.
+**5.Map:** A collection of key-value pairs.
+
+
+
+````hcl
 variable "instance_type" {
   description = "The type of EC2 instance"
   type        = string
@@ -35,4 +39,4 @@ variable "tags" {
       Name = "VM-1"
                 }
 }
-```
+````
