@@ -1,4 +1,4 @@
-# $color\{Red} \textbf \{Variables}$
+# $${\color{red} \textbf{Variables}}$$:
 
 ## Introduction
 - In Terraform, variables help you customize your configurations so you can reuse them easily. 
