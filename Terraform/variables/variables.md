@@ -6,6 +6,7 @@
 - They act like blanks you fill in with different values whenever you use your Terraform files.
   
 
+
 **1.String:** Textual data, like words or sentences.
 
 **2.Number:** Numeric data, including integers and floating-point numbers.
