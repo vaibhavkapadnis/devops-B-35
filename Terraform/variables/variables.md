@@ -7,9 +7,13 @@
   
 
 **1.String:** Textual data, like words or sentences.
+
 **2.Number:** Numeric data, including integers and floating-point numbers.
+
 **3.Boolean:** Represents true or false values.
+
 **4.List:** An ordered collection of items.
+
 **5.Map:** A collection of key-value pairs.
 
 
