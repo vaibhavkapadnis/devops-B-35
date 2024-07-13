@@ -12,22 +12,27 @@ sudo apt install ansible
 ````
 ansible --version
 ````
-**set up inventory file**
+### set up inventory file
+
 ````
 sudo nano /etc/ansible/hosts
 private-ip of instance
 ````
 
-** edit ansible.cfg**
+### edit ansible.cfg
+
+````
 [defaults]
 inventory = hosts
 host_key_checking = False
+````
 
-**ping all nodes to test connection**
+
+### ping all nodes to test connection
 ````
 ansible all -m ping
 ````
-**run playbook**
+### run playbook
 ````
 ansible-playbook playbook.yaml
 ````
