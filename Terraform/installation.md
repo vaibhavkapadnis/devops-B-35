@@ -60,4 +60,8 @@ sudo apt update && sudo apt install terraform
 ````
 terraform --version
 ````
+**Alternative method to download Terraform**
+````
+https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+````
 
