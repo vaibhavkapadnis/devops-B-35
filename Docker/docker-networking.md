@@ -8,6 +8,7 @@
 **create docker network**
 ````
 docker network create <net-name>
+docker network create --driver macvlan  mac-net
 ````
 **list networks**
 ````
