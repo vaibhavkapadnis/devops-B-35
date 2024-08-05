@@ -63,7 +63,7 @@ aws configure
 
 **5:Create Amazon EKS cluster using eksctl**
 ````
-eksctl create cluster --name demo-ekscluster --region ap-south1 --version 1.27 --nodegroup-name linux-nodes --node-type t2.micro --nodes 2
+eksctl create cluster --name demo-ekscluster --region ap-south-1 --version 1.27 --nodegroup-name linux-nodes --node-type t2.micro --nodes 2
 ````
 **6: Log In Into EKS cluster**
 ````
