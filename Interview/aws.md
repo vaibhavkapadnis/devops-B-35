@@ -105,7 +105,7 @@
   - Discuss strategies for managing and optimizing VPC resources, including IP address allocation, subnet sizing, and route table design.
   - What are the considerations when setting up VPCs in a multi-region or global configuration for disaster recovery or load balancing?
 
- ## $${\color{blue} \textbf {Auto-Scaling}$$
+ ## $${\color{blue} \textbf {Auto-Scaling}}$$
   - Explain the primary components of AWS Auto Scaling.
   - What is the difference between horizontal and vertical scaling, and how does Auto Scaling facilitate horizontal scaling?
   - How do you determine the desired capacity and minimum capacity for an Auto Scaling group?
@@ -122,7 +122,7 @@
   - What are lifecycle hooks in Auto Scaling, and how can they be used for advanced customization of instance scaling actions?
   - Explain the concept of mixed instances in an Auto Scaling group and its benefits.
 
- ## $${\color{blue} \textbf {Load-Balancing}$$
+ ## $${\color{blue} \textbf {Load-Balancing}}$$
 
   - When would you choose an Application Load Balancer (ALB) over a Network Load Balancer (NLB), and vice versa?
   - What is a target group in the context of ALB, and how is it used for routing traffic to instances?
