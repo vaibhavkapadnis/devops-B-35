@@ -1,6 +1,6 @@
 # $${\color{red} \textbf {AWS Interview Quentions}}$$
 
-## $${\color{orange} \textbf {IAM}}$$
+## $${\color{blue} \textbf {IAM}}$$
 
    1. How do you control access to AWS services and resources using IAM?
    2. Explain the difference between an AWS user, group, role, and policy.
@@ -19,7 +19,7 @@
   14. Your organization is migrating on-premises applications to AWS. How would you ensure a seamless transition for user authentication and authorization using AWS IAM?
   15. Your organization has adopted AWS Organizations to manage multiple AWS accounts. How would you enforce IAM best practices and policies across these accounts efficiently?
 
-## $${\color{orange} \textbf {S3}}$$
+## $${\color{blue} \textbf {S3}}$$
 
   - What is Amazon S3, and what is its primary purpose within the AWS ecosystem?
  -  Explain the structure of an S3 object's URL (Uniform Resource Locator).
@@ -48,7 +48,7 @@
   - Explain how you would architect a backup and disaster recovery solution using S3.
   - Discuss the advantages and considerations of using Amazon S3 as a content delivery solution (S3 as a static website host or through Amazon CloudFront).
 
-   ## $${\color{orange} \textbf {EC2}}$$
+   ## $${\color{blue} \textbf {EC2}}$$
 
  
   - What is an EC2 instance type, and how do you choose the right one for your application?
@@ -87,7 +87,7 @@
   - Describe the difference between EBS-backed and instance-store-backed EC2 instances and their respective advantages and limitations.
   - How can you monitor the performance and health of EBS volumes, and what AWS services or tools can assist in this process?
 
-## $${\color{orange} \textbf {VPC}$$
+## $${\color{blue} \textbf {VPC}$$
 
   - What is Amazon Virtual Private Cloud (Amazon VPC), and why is it important in AWS networking?
   - What is the primary difference between a public subnet and a private subnet in a VPC?
@@ -105,7 +105,39 @@
   - Discuss strategies for managing and optimizing VPC resources, including IP address allocation, subnet sizing, and route table design.
   - What are the considerations when setting up VPCs in a multi-region or global configuration for disaster recovery or load balancing?
 
-## $${\color{orange} \textbf {RDS}$$
+ ## $${\color{blue} \textbf {Auto-Scaling}$$
+  - Explain the primary components of AWS Auto Scaling.
+  - What is the difference between horizontal and vertical scaling, and how does Auto Scaling facilitate horizontal scaling?
+  - How do you determine the desired capacity and minimum capacity for an Auto Scaling group?
+  - What is difference between Launch Template and Launch configuration?
+  - Explain how scaling policies work in Auto Scaling. What are the different types of scaling policies?
+  - How do you configure triggers and alarms for Auto Scaling policies using Amazon CloudWatch?
+  - What is a cooldown period in Auto Scaling, and why is it important to configure it correctly?
+  - What are the best practices for setting up Auto Scaling for stateful and stateless applications?
+  - Explain how you would handle Auto Scaling for applications with varying workloads throughout the day (e.g., a news website with peak traffic times).
+  - What strategies can you use to minimize costs while using Auto Scaling effectively?
+  - How can you troubleshoot issues related to Auto Scaling, such as instances not launching or scaling events not triggering as expected?
+  - What metrics and logs should you monitor to ensure the health and performance of Auto Scaling groups?
+  - What actions would you take if an Auto Scaling group consistently launches instances with failures or if instances are frequently terminated due to scaling down?
+  - What are lifecycle hooks in Auto Scaling, and how can they be used for advanced customization of instance scaling actions?
+  - Explain the concept of mixed instances in an Auto Scaling group and its benefits.
+
+ ## $${\color{blue} \textbf {Load-Balancing}$$
+
+  - When would you choose an Application Load Balancer (ALB) over a Network Load Balancer (NLB), and vice versa?
+  - What is a target group in the context of ALB, and how is it used for routing traffic to instances?
+  - Explain the concept of listeners and rules in load balancer configuration.
+  - What are the health checks performed by AWS load balancers, and how do they impact instance health?
+  - How can you ensure session persistence or stickiness for clients using a load balancer in AWS?
+  - How does AWS ensure high availability for load balancers, and what are the best practices for achieving redundancy?
+  - Explain the use of cross-zone load balancing in AWS, and when would you enable or disable it?
+  - What is the importance of distributing instances across multiple Availability Zones (AZs) when using load balancers in AWS?
+  - Explain the process of configuring SSL/TLS certificates for securing traffic between clients and the load balancer.
+  - What is AWS Web Application Firewall (WAF), and how can it be integrated with a load balancer for application security?
+  - What are blue-green deployments, and how can AWS load balancers be used to facilitate this deployment strategy?
+
+
+## $${\color{blue} \textbf {RDS}$$
 
   - Explain the primary database engines supported by Amazon RDS.
   - What are the benefits of using Amazon RDS for database management in AWS?
@@ -121,7 +153,7 @@
   - What is AWS Database Migration Service (DMS), and how does it simplify database migration tasks?
   - Discuss best practices for maintaining and optimizing the performance and cost of Amazon RDS instances over time.
 
-   ## $${\color{orange} \textbf {Route-53}$$ 
+   ## $${\color{blue} \textbf {Route-53}$$ 
 
   - What are top-level domains (TLDs) and second-level domains, and how do they relate to Route 53?
   - Explain the primary services provided by Amazon Route 53.
