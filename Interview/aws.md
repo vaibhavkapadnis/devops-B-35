@@ -87,7 +87,7 @@
   - Describe the difference between EBS-backed and instance-store-backed EC2 instances and their respective advantages and limitations.
   - How can you monitor the performance and health of EBS volumes, and what AWS services or tools can assist in this process?
 
-## $${\color{blue} \textbf {VPC}$$
+## $${\color{blue} \textbf {VPC}}$$
 
   - What is Amazon Virtual Private Cloud (Amazon VPC), and why is it important in AWS networking?
   - What is the primary difference between a public subnet and a private subnet in a VPC?
