@@ -137,7 +137,7 @@
   - What are blue-green deployments, and how can AWS load balancers be used to facilitate this deployment strategy?
 
 
-## $${\color{blue} \textbf {RDS}$$
+## $${\color{blue} \textbf {RDS}}$$
 
   - Explain the primary database engines supported by Amazon RDS.
   - What are the benefits of using Amazon RDS for database management in AWS?
@@ -153,7 +153,7 @@
   - What is AWS Database Migration Service (DMS), and how does it simplify database migration tasks?
   - Discuss best practices for maintaining and optimizing the performance and cost of Amazon RDS instances over time.
 
-   ## $${\color{blue} \textbf {Route-53}$$ 
+   ## $${\color{blue} \textbf {Route-53}}$$ 
 
   - What are top-level domains (TLDs) and second-level domains, and how do they relate to Route 53?
   - Explain the primary services provided by Amazon Route 53.
